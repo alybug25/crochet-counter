@@ -1,7 +1,61 @@
+/* colors, dark to light
+- #c08497
+- #dc9a9a
+- #f7af9d
+- #f7c9a6 */
+
 body {
-    background-image: url();
+    background-image: url(/images/background.jpg);
+    /* background: linear-gradient(#c08497, #f7c9a6); */
     background-size: cover;
+    height: 100vh;
     font-family: "Crafty Girls", cursive;
+    font-size: 1.5rem;
     text-align: center;
+    color: white;
+    display: block;
 }
 
+.container {
+    position: relative;
+    margin: 200px auto;
+    width: 500px;
+    padding: 20px;
+    background: linear-gradient(#632a31);
+    border: 3px dashed white;
+    border-radius: 20px;
+
+}
+
+.star1 {
+    position: absolute;
+    top: -130px;
+    left: 550px;
+    rotate: 60deg;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.star2 {
+    position: absolute;
+    top: -130px;
+    right: -30px;
+    rotate: 170deg;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.star3 {
+    position: absolute;
+    bottom: -130px;
+    left: -170px;
+    rotate: 20deg;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+}
