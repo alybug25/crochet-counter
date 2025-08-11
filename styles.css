@@ -1,12 +1,6 @@
-/* colors, dark to light
-- #c08497
-- #dc9a9a
-- #f7af9d
-- #f7c9a6 */
 
 body {
     background-image: url(/images/background.jpg);
-    /* background: linear-gradient(#c08497, #f7c9a6); */
     background-size: cover;
     height: 100vh;
     font-family: "Crafty Girls", cursive;
@@ -27,9 +21,14 @@ body {
 
 }
 
+h1 {
+    margin-bottom: 10px;
+}
+
 h2 {
     font-size: 3rem;
-    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 button {
