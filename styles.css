@@ -27,6 +27,29 @@ body {
 
 }
 
+h2 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+button {
+    font-family: "Crafty Girls", cursive;
+    font-size: 1.25rem;
+    background: white;
+    color: #632a31;
+    margin: 3px;
+    padding: 15px 20px;
+    border: 2px dashed #632a31;
+    border-radius: 50px;
+}
+
+button:hover {
+    background: #632a31;
+    color: white;
+    border: 2px dashed white;
+    border-radius: 50px;
+}
+
 .star1 {
     position: absolute;
     top: -130px;
