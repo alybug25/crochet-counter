@@ -3,11 +3,7 @@ let countEl = document.getElementById("count-el");
 const addBtn = document.getElementById("add-btn");
 const deleteBtn = document.getElementById("delete-btn");
 const saveBtn = document.getElementById("save-btn");
-let recordEl = documentgetElementById("record-el");
-
-function test() {
-    console.log("hi");
-}
+let recordEl = document.getElementById("record-el");
 
 addBtn.addEventListener("click", () => {
     console.log("button clicked");
@@ -16,7 +12,12 @@ addBtn.addEventListener("click", () => {
 });
 
 deleteBtn.addEventListener("click", () => {
-    count -= 1;
+    if (count === 0) {
+        count = 0
+    }
+    else {
+        count -= 1;
+    }
     countEl.textContent = count;
 });
 
